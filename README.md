@@ -1,4 +1,4 @@
-# column-wise_intensity
+# Column-wise Intensity
 
 
 There are multiple names dedicated to this image processing operation depends on which software is named it. 
