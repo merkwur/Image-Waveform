@@ -11,6 +11,7 @@ enum img_channels {
 };
 
 int main(void){
+
     int width, height, channels, pixel_index, c; 
     unsigned char *image = stbi_load("clock_0000.png", &width, &height, &channels, 0);
 
@@ -25,7 +26,6 @@ int main(void){
     
     printf("Image successfully loaded (%d, %d, %d)", height, width, channels);
 
-    
     memset(histogram, 0, sizeof(histogram));
 
     for (int y = 0; y < height; y++){
